@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="241af5bd-f065-4c2c-91ba-36ac881d7eeb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MainAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MainUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/oderItem.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/orders.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/products.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../data/users.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IItemOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils/CSVUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../utils/ValidateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/AdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/AdminViewLaucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/InputOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/MainLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/OrderView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/OrderViewLaucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/ProductView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/ProductViewLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/UserView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../views/UserViewLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../regex/src/Crawl_news/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../thi/src/productThi/CSVUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../thi/src/productThi/product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../thi/src/productThi/productview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Certificate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Fresher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Intern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Abstract Class and Interface/src/Bai_tap_13/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Binary-file-and-Serialization17/src/Music/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Binary-file-and-Serialization17/src/Music/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Binary-file-and-Serialization17/src/product/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Binary-file-and-Serialization17/src/product/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/SortStudentByGPA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/SortStudentByName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/StudentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DEMO QLSP/src/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA-Stack-Queue/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA-Stack-Queue/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA-Stack-Queue/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA-Stack-Queue/src/baitap4/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA-Stack-Queue/src/baitap4/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA-Stack-Queue/src/baitap4/StackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA-Stack-Queue/src/baitap4/StackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Simple_List2/MyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Simple_List2/MyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Simple_List2/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/out/production/DSA.Danh_Sach/Simple_List2/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/BTVN/dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/baitap3/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/baitap3/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/baitap3/TestMyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DSA.Danh_Sach/src/baitap3/TestMyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/LinearEquationResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai2/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai2/ArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai4/RightTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/bai4/RightTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/demo/Trycatchdemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DebugVaUngDungJava/src/demo/Trycatchdemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../TextFile/src/test/TestFileClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../TextFile/src/test/TestFileClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Threading/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Threading/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/product management.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/src/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/src/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/src/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../product management/src/Productview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/quanlisanpham.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/services/IOrderItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/services/IOrderSevice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/services/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../quanlisanpham/src/services/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../thi/src/productThi/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../thi/src/productThi/ProductManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2EpNg9iabArmP2wymsTQQr60yGs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Module2/Sports shoe sales manager/src/service"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="241af5bd-f065-4c2c-91ba-36ac881d7eeb" name="Changes" comment="" />
+      <created>1663288673472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663288673472</updated>
+      <workItem from="1663288674947" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
