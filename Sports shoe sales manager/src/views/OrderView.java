@@ -112,13 +112,13 @@ public class OrderView {
         try {
             System.out.println(" ⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫   LIST PRODUCT  ⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫⚫ ");
             System.out.println("|                                                                                                                                                                                                         |");
-            System.out.printf("%-30s %-20s %-20s %-15s %-40s %-15s %-15s %-21s %-7s\n|", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên Sản Phẩm", "Size", "Số lượng", "   Giá", "   Tổng" + "                                       |");
+            System.out.printf("%-30s %-20s %-20s %-15s %-60s %-15s %-15s %-21s %-7s\n|", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên Sản Phẩm", "Size", "Số lượng", "   Giá", "   Tổng" + "                                       |");
             for (Order order : orders) {
                 for (OrderItem orderItem : orderItems) {
                     if (orderItem.getOrderId() == order.getIdOder()) {
                         newOrderItem = orderItem;
                         Product product = productService.findById(newOrderItem.getProductId());
-                        System.out.printf("%-30s %-20s %-20s %-15s %-40s %-15s %-15s %-21s %-7s\n|",
+                        System.out.printf("%-30s %-20s %-20s %-15s %-60s %-15s %-15s %-21s %-7s\n|",
                                 order.getIdOder(),
                                 order.getFullName(),
                                 order.getMobile(),

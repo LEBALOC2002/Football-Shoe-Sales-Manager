@@ -75,7 +75,7 @@ public class AdminView {
                    password=inputPassword();
 
                 }
-                while (!ValidateUtils.PasswordValid(password));
+                while (ValidateUtils.PasswordValid(password));
 
 
 
